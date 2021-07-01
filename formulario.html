@@ -1,0 +1,99 @@
+<!<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Faculdade Fatec (fake)</title>
+	<link rel="stylesheet" type="text/css" href="\Web\HTML\Sites\Trabalho Faculdade\CSS\syles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<!----------------------------------Cabeçalho----------------------------->
+
+<header class="cabeçalho" align="top">
+		
+	<div align="center" class="ola">
+		<a class="img" href="\Web\HTML\Sites\Trabalho Faculdade\index.html"><img   src="\Web\HTML\Sites\Trabalho Faculdade\IMG\donwload.png"></a>
+		<ul>
+			<li>
+				<a class="link" href="\Web\HTML\Sites\Trabalho Faculdade\index.html" name="Home">Home</a> 
+			</li>
+			<li>
+				<a class="link1" href="\Web\HTML\Sites\Trabalho Faculdade\Missao.html">Missão</a> 
+			</li>
+			<li>
+				<a class="link2" href="\Web\HTML\Sites\Trabalho Faculdade\formulario.html">Formulário</a>
+			</li>
+			<li>
+				<a class="link3" href="\Web\HTML\Sites\Trabalho Faculdade\Cursos.html">Cursos</a>
+			</li>
+			<li>
+				<a class="link4" href="\Web\HTML\Sites\Trabalho Faculdade\contato.html">Contato</a>
+			</li>
+		</ul>
+		<label class="Etiqueta">Usuário: <input type="text" size="30px" placeholder="Usuário"  name="Usuário"></label>
+  	</div>		
+</header>
+<!------------------------------------Corpo---------------------------->
+<div>
+<form name="Formulario Faculdade" class="Formulario_facul" method="Post">
+	<label class="Etiqueta1">Nome: </label><br>
+		<input class="Leitor" type="text" name="Formulario_facul" size="30px" placeholder="Nome Aqui" maxlength="30"><br>
+
+	<label class="Etiqueta1">CPF</label>
+		<input type="text" name="FCPF" placeholder="000.000.000-00" size="15px" maxlength="15">
+
+	<label class="Etiqueta1">Telefone:</label>
+		<input type="tel" maxlength="15" size="20" name="fFone" placeholder="(xx)xxxx-xxxx" required><br>
+
+	<label class="Etiqueta1">Nome da Mãe</label>
+		<input type="text" name="NMae" size="30px" maxlength="100" placeholder="Nome Aqui"><br>
+
+	<label class="Etiqueta1">E-mail</label>
+		<input type="email" name="F-mail" maxlength="100" size="20" placeholder="seu.email@email.com"><br>
+
+	<label class="Etiqueta1">Sexo:</label>
+		<input type="radio" name="Masculino" value="Masculino">Masculino
+		<input type="radio" name="Feminino" value="Feminino">Feminino
+		<input type="radio" name="Indefinido" value="Indefinido">Indefinido<br>
+
+	<label class="Etiqueta1">Endereço</label>
+		<input type="text" name="Endereço" placeholder="Rua, Bairro"><br>
+
+	<label class="Etiqueta1">Cidade</label>
+		<input type="text" name="Fcidade" placeholder="Cidade" size="50px" ><br>
+
+	<label class="Etiqueta1">Estado</label>
+		<input type="text" name="Estado" value="" size="2px" maxlength="2"><br>
+
+	<label class="Etiqueta1"> CEP:</label><br>
+		<input type="text" maxlength="9" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d(5)-?\d(3)" required><br>
+
+	<label class="Etiqueta1">Curso de Interece</label>
+		<select>
+			<option value="FF">Escolha a Opção de Curso</option>
+			<option>Curso de Programação em Java (Avançado)</option>
+			<option>Curso de Programação em Java (Básico)</option>
+			<option>Curso de Habilitação a empilhadeira</option>
+			<option>Curso de Programação em Phyton (Avançado)</option>
+			<option>Curso de Programação em Phyton (Básico)</option>
+			<option>Curso de Engenharia Elétrica</option>
+			<option>Curso de Trabalho com Torno</option>
+			<option>Curso de Trabalho com artesanato</option>
+			<option>Curso de Trebalho com Plastico</option>
+			<option>Curso de Programação em C++</option>
+		</select><br>
+
+	<input class="button" type="button" name="Enviar" value="Enviar">
+</form>
+
+</div>
+<!------------------------------------Rodapé----------------------------->
+<footer >
+	<p align="center">
+	Todos os direitos reservados ©2021 Matheus Freitas
+	</p>
+</footer>
+
+</body>
+</html>
