@@ -1,0 +1,247 @@
+/*-----------------------------------------cabeçalho----------------------------*/
+.cabeçalho{
+	top: 0;
+	left: 0;
+	background-color:#435fde;
+	width: 100%;
+	height: 110px	;
+	box-shadow:0px 2px 7px rgba(0, 0, 0, 0.2);
+	text-anchor: block;
+
+}
+.img{
+	height: 60%;
+	width: 20%;
+	margin-top: 20px;
+	float: left;	
+	cursor: pointer;
+}
+ul,li,a{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+
+.link, .link1, .link2, .link3, .link4{
+	color: white;
+	font-family: Arial;
+	font-size: 24pt;
+	margin-right: 6px;
+}
+a{
+
+	color: white;
+	text-decoration-style: none;
+	font-family: Arial;
+}
+li {
+	font-display: fallback;
+	margin-right: 10px;
+	margin-top: 20px;
+	box-shadow: 5px #938D8D;
+	text-decoration: none;
+}
+.Etiqueta{
+	margin-top: 40px;
+	font-family: Arial;
+	font-size: 10pt;
+	margin-right: 30px;
+	border-radius: 0.5pt;
+	float: right;
+	alignment-baseline: central;
+	vertical-align: middle;
+}
+/*------------------------------------------cabeçalho---------------------------*/
+
+/*-----------------------------------Corpo--------------------------------*/
+
+/*---------------home-----------------*/
+.container1{
+	margin-top: 50px;
+	margin-left: 200px;
+	background-color: white;
+	height: 100px;
+	width: 900px;
+	border-radius: 6pt;
+	box-shadow: 5px 5px 12px ;
+	padding-top: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-wrap: nowrap; 
+}
+.cubo{
+	margin-top: 10px;
+	margin-left: 6px;
+	border-radius: 4pt;
+	height: 60px;
+	width: 100%; 
+	padding-left: 4px;
+	text-decoration: blink;
+}
+.cubo:hover{
+	background-color: #A5A5A5;
+}
+.cont_facul{
+	margin-top: 50px;
+	margin-left: 210px;
+	margin-right: 350px;
+	width: 900px;
+	height: 500px;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	box-shadow: 5px 5px 12px ;
+	border-radius: 6pt;
+}
+.Text_facul{
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.IMG_Facul{
+	margin-top: 50px;
+	margin-right: 10px;
+	border: 4pt solid #435fde;
+	border-radius: 4pt;
+}
+/*-----------------home----------------*/
+
+/*-----------------Missão--------------*/
+.cont_missao{
+	margin-left: 300px;
+	margin-right: 300px;
+	box-shadow:  5px 4px 5px 2px grey;
+	height: 1000px;
+	border-radius: 3pt;
+}
+.img2{
+	text-align: center;
+	margin-top: 60px;
+}
+/*-----------------Missão--------------*/
+/*-----------------Formulario----------*/
+.Formulario_Facul{
+	margin-top: 12px;
+	margin-bottom: 900px;
+	width: 900px;
+	height: 800px;
+	border: 1pt solid black;
+	margin-left: 250px;
+	vertical-align: middle;
+	border-radius: 7pt;
+	border: 3px solid #435fde;
+	padding-left: 10px;
+
+}
+.leitor{
+	margin-right: 20px;
+}
+.Etiqueta1{
+	font-family: Arial;
+	font-size: 16pt;
+	color: #435fde;
+	margin-top: 15px;
+}
+.button{
+	background-color: #435fde;
+	color: white;
+}
+.button:hover{
+	background-color: #A5A5A5;
+}
+/*-----------------Formulario----------*/
+
+/*-----------------Cursos-------------*/
+.Container_cursos{
+	width: 900px;
+	height: 900px;
+	margin-top: 30px;
+	margin-right: 350px;
+	margin-left: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	flex-direction: row;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.Bloco_cursos{
+	height: 120px;
+	width: 400px;
+	border-radius: 6pt;
+	box-shadow: 5px 5px 12px ;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;	
+	margin-bottom: 0px;
+}
+
+.conteudo{
+	font-family: Arial;
+	font-size: 15pt;
+	font-style: oblique;
+	margin-bottom: -10px;
+
+}
+.Botão{
+	margin-left: 190px;
+	background-color: #435fde;
+	color: white;
+	font-style: normal;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.Botão:hover{
+	background-color: #A5A5A5;
+}
+/*-----------------Cursos-------------*/
+
+/*-----------------Contatos-----------*/
+.contatos{
+	display: flex;
+	justify-content: space-between; 
+	margin-top: 120px;	
+	margin-bottom: 300px;	
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	box-shadow: 0 0 1em grey;
+	border-radius: 8pt;
+}
+.cont_contatos{
+	border-left-style: dotted;
+	border: 1px solid #C0C0C0;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 3pt;
+
+}
+.img3:hover{
+	background-color: #A5A5A5;
+	size: 100%;
+}
+.img3{
+	width: 140px;
+	height: 140px;
+}
+/*-----------------Contatos-----------*/
+
+/*----------------------------------------Corpo-----------------------------*/
+
+/*----------------Rodapé-------------------*/
+footer{
+background-color: #767171;
+display: inline-block;
+alignment-baseline: baseline;
+font-family: Arial;
+font-size: 12pt;
+margin-top: 60px;
+margin-bottom: -20px;
+}
+/*----------------Rodapé-------------------*/
